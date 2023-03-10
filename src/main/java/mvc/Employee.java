@@ -7,6 +7,8 @@ public class Employee {
     private String lastName;
     private int age;
     private String department;
+    private String car;
+    private String[] languages;
 
     public Employee() {
     }
@@ -41,6 +43,22 @@ public class Employee {
 
     public void setDepartment(String department) {
         this.department = department;
+    }
+
+    public String getCar() {
+        return car;
+    }
+
+    public void setCar(String car) {
+        this.car = car;
+    }
+
+    public String[] getLanguages() {
+        return languages;
+    }
+
+    public void setLanguages(String[] languages) {
+        this.languages = languages;
     }
 
     @Override
